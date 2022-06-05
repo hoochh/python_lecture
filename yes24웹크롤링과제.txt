@@ -1,0 +1,15 @@
+#yesSchList > li:nth-child(1) > div > div.item_info > div.info_row.info_rating > span.rating_grade > em
+
+#yesSchList > li:nth-child(1)
+
+#goodsListWrap > div.sGoodsPagen > div > a:nth-child(2)
+#goodsListWrap > div.sGoodsPagen > div > a:nth-child(10)
+
+#goodsListWrap > div.sGoodsPagen > div > a.bgYUI.next
+
+#goodsListWrap > div.sGoodsPagen > div > strong
+#goodsListWrap > div.sGoodsPagen > div > a:nth-child(4)
+#goodsListWrap > div.sGoodsPagen > div > a:nth-child(12)
+
+#goodsListWrap > div.sGoodsPagen > div > a:nth-child(4)
+#goodsListWrap > div.sGoodsPagen > div > a:nth-child(12)
