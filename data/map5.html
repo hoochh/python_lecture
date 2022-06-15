@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c98af93d06b3837cc3d8b3c229dc5dec {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_c98af93d06b3837cc3d8b3c229dc5dec" ></div>
+        
+</body>
+<script>    
+    
+            var map_c98af93d06b3837cc3d8b3c229dc5dec = L.map(
+                "map_c98af93d06b3837cc3d8b3c229dc5dec",
+                {
+                    center: [35.179792, 129.074958],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b33ccbe8bcc90f7e403bbae417ad8b54 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c98af93d06b3837cc3d8b3c229dc5dec);
+        
+    
+            var marker_509de074800d0c59306664fafc7b80fc = L.marker(
+                [35.180792, 129.074958],
+                {}
+            ).addTo(map_c98af93d06b3837cc3d8b3c229dc5dec);
+        
+    
+        var popup_1ec44e4a57e4e13a86060384a8ed7374 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32d05cb5e835ce2c4b15be47601f747d = $(`<div id="html_32d05cb5e835ce2c4b15be47601f747d" style="width: 100.0%; height: 100.0%;"><i>부산시청 위</i></div>`)[0];
+            popup_1ec44e4a57e4e13a86060384a8ed7374.setContent(html_32d05cb5e835ce2c4b15be47601f747d);
+        
+
+        marker_509de074800d0c59306664fafc7b80fc.bindPopup(popup_1ec44e4a57e4e13a86060384a8ed7374)
+        ;
+
+        
+    
+    
+            marker_509de074800d0c59306664fafc7b80fc.bindTooltip(
+                `<div>
+                     클릭해주세요
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_94d562bea9922110f888289c68540a64 = L.marker(
+                [35.179792, 129.075958],
+                {}
+            ).addTo(map_c98af93d06b3837cc3d8b3c229dc5dec);
+        
+    
+            var icon_340feaa6da70d064ef60091219e843b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_94d562bea9922110f888289c68540a64.setIcon(icon_340feaa6da70d064ef60091219e843b7);
+        
+    
+        var popup_46c1c21c6cf23e35a3f02474c7bbbc1e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6d1b81368de7f07b68330f818009992 = $(`<div id="html_c6d1b81368de7f07b68330f818009992" style="width: 100.0%; height: 100.0%;"><i>부산시청 옆</i></div>`)[0];
+            popup_46c1c21c6cf23e35a3f02474c7bbbc1e.setContent(html_c6d1b81368de7f07b68330f818009992);
+        
+
+        marker_94d562bea9922110f888289c68540a64.bindPopup(popup_46c1c21c6cf23e35a3f02474c7bbbc1e)
+        ;
+
+        
+    
+    
+            marker_94d562bea9922110f888289c68540a64.bindTooltip(
+                `<div>
+                     클릭해주세요
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3fe9044ef229f7ef6851c5710cb5d051 = L.circleMarker(
+                [35.179792, 129.074958],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_c98af93d06b3837cc3d8b3c229dc5dec);
+        
+    
+        var popup_a0e01f27a8fd11b3c5cdc87be35efa9f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_637227701f6c5727ef9c6518d6f616f0 = $(`<div id="html_637227701f6c5727ef9c6518d6f616f0" style="width: 100.0%; height: 100.0%;"><i>부산시청</i></div>`)[0];
+            popup_a0e01f27a8fd11b3c5cdc87be35efa9f.setContent(html_637227701f6c5727ef9c6518d6f616f0);
+        
+
+        circle_marker_3fe9044ef229f7ef6851c5710cb5d051.bindPopup(popup_a0e01f27a8fd11b3c5cdc87be35efa9f)
+        ;
+
+        
+    
+    
+            circle_marker_3fe9044ef229f7ef6851c5710cb5d051.bindTooltip(
+                `<div>
+                     클릭해주세요
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
